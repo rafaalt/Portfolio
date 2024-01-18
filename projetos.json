@@ -1,0 +1,20 @@
+{
+    "projects":[
+        {
+            "number":"1",
+            "name":"Football Kits",
+            "git":"https://github.com/rafaalt/FootballKits",
+            "page":"https://rafaalt.github.io/FootballKits/",
+            "description":"Site mostrando todas as camisas usadas por times brasileiros e europeus separados por campeonatos.",
+            "language":"Javascript"
+        },
+        {
+            "number":"2",
+            "name":"Show Finder",
+            "git":"https://github.com/rafaalt/ShowFinder",
+            "page":"https://rafaalt.github.io/ShowFinder/",
+            "description":"Busca de filmes e séries para apresentar todos os seus detalhes através de uma API.",
+            "language":"Javascript"
+        }
+    ]
+}
