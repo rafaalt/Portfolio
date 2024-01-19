@@ -6,7 +6,9 @@
             "git":"https://github.com/rafaalt/FootballKits",
             "page":"https://rafaalt.github.io/FootballKits/",
             "description":"Site mostrando todas as camisas usadas por times brasileiros e europeus separados por campeonatos.",
-            "language":"Javascript"
+            "language":"Javascript",
+            "aplicativo": false,
+            "year":2024
         },
         {
             "number":"2",
@@ -14,7 +16,39 @@
             "git":"https://github.com/rafaalt/ShowFinder",
             "page":"https://rafaalt.github.io/ShowFinder/",
             "description":"Busca de filmes e séries para apresentar todos os seus detalhes através de uma API.",
-            "language":"Javascript"
+            "language":"Javascript",
+            "aplicativo": false,
+            "year":2024
+        },
+        {
+            "number":"4",
+            "name":"Parou de Seguir",
+            "git":"https://github.com/rafaalt/ParouDeSeguirIOS",
+            "page": "https://docs.google.com/presentation/d/1mxZsw4OMUzsCMTXFGfVTbtT3tOl8cqft__UFC-4zIYY/edit#slide=id.p",
+            "description":"Aplicativo para IOS que através do nome de usuário do instagram verifica seus seguidores e faz uma verificação de todos os que não seguem de volta e, posteriormente, verifica quais usuários pararam de seguir.",
+            "language":"Swift",
+            "aplicativo": true,
+            "year":2022
+        },
+        {
+            "number":"3",
+            "name":"Web Scraping CBF",
+            "git":"https://github.com/rafaalt/ScraperBrasileirao",
+            "page": null,
+            "description":"Web Scraping para coleta de dados e informações de todas as partidas de campeonato brasileiro disponibilizadas no site da CBF, variando por ano e divisão.",
+            "language":"Python",
+            "aplicativo": false,
+            "year":2023
+        },
+        {
+            "number":"5",
+            "name":"Jogo da Velha",
+            "git":"https://github.com/rafaalt/AppJogoDaVelha",
+            "page": null,
+            "description":"Aplicativo de um jogo da velha com tamanho de tabuleiros variados, possibilidade de jogar a partida com 2 pessoas ou contra um bot inteligente. Histórico de Partidas e um ranking de vitórias também são funcionalidades presentes no aplicativo.",
+            "language":"Java",
+            "aplicativo": true,
+            "year":2023
         }
     ]
 }
