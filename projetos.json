@@ -31,6 +31,36 @@
             "year":2022
         },
         {
+            "number":"5",
+            "name":"Jogo da Velha",
+            "git":"https://github.com/rafaalt/AppJogoDaVelha",
+            "page": null,
+            "description":"Aplicativo de um jogo da velha com tamanho de tabuleiros variados, possibilidade de jogar a partida com 2 pessoas ou contra um bot inteligente. Histórico de Partidas e um ranking de vitórias também são funcionalidades presentes no aplicativo.",
+            "language":"Java",
+            "aplicativo": true,
+            "year":2023
+        },
+        {
+            "number":"6",
+            "name":"Jogo da Memória",
+            "git":"https://github.com/rafaalt/AppJogoDaMemoria",
+            "page": null,
+            "description":"Aplicativo de um jogo da memória com tamanho variado de tabuleiros, número de jogadas e recordes salvos. Temática inspirada nos times do campeonato brasileiro.",
+            "language":"Java",
+            "aplicativo": true,
+            "year":2023
+        },
+        {
+            "number":"8",
+            "name":"Wikipedia Search",
+            "git":"https://github.com/rafaalt/WikipediaSearch",
+            "page": "https://rafaalt.github.io/WikipediaSearch",
+            "description":"Site de busca de artigos na Wikipedia através da API disponibilizando todos os resultados relacionados a busca.",
+            "language":"Javascript",
+            "aplicativo": false,
+            "year":2023
+        },
+        {
             "number":"3",
             "name":"Web Scraping CBF",
             "git":"https://github.com/rafaalt/ScraperBrasileirao",
@@ -41,14 +71,14 @@
             "year":2023
         },
         {
-            "number":"5",
+            "number":"7",
             "name":"Jogo da Velha",
-            "git":"https://github.com/rafaalt/AppJogoDaVelha",
-            "page": null,
-            "description":"Aplicativo de um jogo da velha com tamanho de tabuleiros variados, possibilidade de jogar a partida com 2 pessoas ou contra um bot inteligente. Histórico de Partidas e um ranking de vitórias também são funcionalidades presentes no aplicativo.",
-            "language":"Java",
-            "aplicativo": true,
-            "year":2023
+            "git":"https://github.com/rafaalt/TicTacToe",
+            "page": "https://rafaalt.github.io/TicTacToe",
+            "description":"Jogo da Velha com dois jogadores.",
+            "language":"Javascript",
+            "aplicativo": false,
+            "year":2022
         }
     ]
 }

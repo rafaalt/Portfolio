@@ -15,31 +15,29 @@ function preencherProjeto(project){
         pageLink = `<a href="${project.page}">Visitar página</a>`;
     }
     if(project.aplicativo){
-        appDiv = `<div class="language Aplicativo">Aplicativo</div>`
+        appDiv = `<p class="language Aplicativo">Aplicativo</p>`
     }
     newProject.innerHTML = `<div class="item">
     <img src="assets/projetos/projeto${project.number}_1.jpg">
     <div class="details">
         <h2>${project.name}</h2>
         <div class="item-info">
-            <div class="language ${project.language}">${project.language}</div>
+            <p class="language ${project.language}">${project.language}</p>
             ${appDiv}
         </div>
         <p>${project.description}</p>
+        <div class="item-end">
         <div class="buttons">
             <a href="${project.git}" target="_blank">Saiba mais</a>
             ${pageLink}
+        </div>
+        <p class="year">${project.year}</p>
         </div>
     </div>
     </div>`
     const img = newProject.querySelector('img');
     img.addEventListener("mouseover", function(){
-        img.style.opacity = 0; // Define a opacidade para 0
-        setTimeout(() => {
-            // Altera o src após um pequeno intervalo para permitir a transição
-            mudarImagem(img, project.number); // Substitua pelo novo caminho da imagem que deseja exibir
-            img.style.opacity = 1; // Define a opacidade de volta para 1
-        }, 0); // Ajuste o valor conforme necessário para a duração da transição
+        mudarImagem(img, project.number);
     });
     img.addEventListener("mouseout", function(){
         voltarImagem(img, project.number);
