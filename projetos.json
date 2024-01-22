@@ -25,7 +25,7 @@
             "name":"Parou de Seguir",
             "git":"https://github.com/rafaalt/ParouDeSeguirIOS",
             "page": "https://docs.google.com/presentation/d/1mxZsw4OMUzsCMTXFGfVTbtT3tOl8cqft__UFC-4zIYY/edit#slide=id.p",
-            "description":"Aplicativo para IOS que através do nome de usuário do instagram verifica seus seguidores e faz uma verificação de todos os que não seguem de volta e, posteriormente, verifica quais usuários pararam de seguir.",
+            "description":"Aplicativo para IOS que através do nome de usuário do instagram verifica seus seguidores e faz uma verificação de todos as pessoas que não seguem de volta.",
             "language":"Swift",
             "aplicativo": true,
             "year":2022
