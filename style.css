@@ -111,7 +111,7 @@ header .links a.selected{
     align-items: center;
     justify-content: center;
     text-align: center;
-    cursor: pointer;
+    cursor: default;
 }
 .meus-conhecimentos img{
     width: 100px;
@@ -121,7 +121,6 @@ header .links a.selected{
 }
 .meus-conhecimentos .conhecimento:hover img{
     filter: drop-shadow(5px 5px 5px rgba(1, 1, 1, 1));
-    cursor: pointer;
 }
 .meus-conhecimentos p{
     font-size: 25px;
@@ -210,6 +209,7 @@ header .links a.selected{
     font-size: 30px;
     font-weight: 600;
     color: #172368;
+    text-align: center;
 }
 .main-project .badge{
     align-items: center;
@@ -234,6 +234,8 @@ header .links a.selected{
 .page-title{
     padding: 80px 234px 20px;
     width: 100%;
+    font-size: 35px;
+    text-align: center;
 }
 
 footer{

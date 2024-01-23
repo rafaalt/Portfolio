@@ -1,0 +1,32 @@
+.sobre-conhecimentos{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(10, 1fr);
+    padding-inline: 50px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-top: 3px solid rgb(90, 103, 187, 0.4);
+    border-bottom: 3px solid rgb(90, 103, 187, 0.4);
+}
+
+.sobre-conhecimentos .sobre-item{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+.sobre-conhecimentos .sobre-item:hover img{
+    filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 1));
+}
+.sobre-conhecimentos .sobre-item img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.sobre-conhecimentos .sobre-item p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
