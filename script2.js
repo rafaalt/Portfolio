@@ -62,4 +62,20 @@ function initProjects(){
     });
 }
 
+function baixarCurriculo(){
+    fetch('assets/Curriculo.pdf')
+        .then(response => response.blob())
+        .then(blob => {
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = 'Curriculo_RafaelAssuncao.pdf';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        })
+        .catch(error => console.error('Erro ao baixar o arquivo PDF:', error));
+    }
+
 initProjects();

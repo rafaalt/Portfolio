@@ -13,35 +13,88 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    cursor: default;
 }
 
 header{
-    padding: 20px 600px;
+    padding: 20px 400px;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
     font-weight: 600;
     border-bottom: 1px solid rgb(30, 28, 121, 0.1);
     width: 100%;
 }
 
-header .colunas{
+header .logo{
     display: flex;
-    gap: 16px;
-    color: white;
+    align-items: center;
+    gap: 10px;
+    cursor: default;
 }
 
-header .colunas a{
+header .logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+header .logo p{
+    font-size: 25px;
+    color: #172368;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header .links{
+    display: flex;
+    gap: 18px;
+    color: white;
+    font-size: 20px;
+}
+
+header .links a{
     transition: color 0.3s ease;
     text-decoration: none;
     color: #7482cf;
 }
 
-header .colunas a:hover,
-header .colunas a.selected{
-    color: #1e2e99;
+header .links a:hover,
+header .links a.selected{
+    color: #172368;
+}
+.index-me .dados{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+.index-me img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    filter: drop-shadow(5px 5px 10px rgba(255, 255, 255, 0.5));
+}
+.index-me .dados{
+    text-align: center;
+    display: flex;
+}
+.index-me .dados h1{
+    font-size: 50px;
+    color: #172368;
+    margin-top: 15px;
 }
 
+.index-me .dados a{
+    margin-top: 100px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.index-me .dados p{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #172368;
+}
 /* Conhecimentos */
 .meus-conhecimentos{
     display: grid;
@@ -326,6 +379,7 @@ footer p{
     border-radius: 6px;
     margin-top: 20px;
     transition: all 0.1s ease;
+    cursor: pointer;
 }
 .btn-final:hover{
     background-color: #681732;

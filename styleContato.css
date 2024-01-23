@@ -1,0 +1,110 @@
+.contato-container{
+    display: flex;
+    padding: 20px;
+}
+.contato-container .contato{
+    width: 600px;
+    height: 500px;
+    margin-inline: 15px;
+    padding-inline: 20px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 1));
+}
+.contato:hover{
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 1));
+}
+.contato-container .itens{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.title{
+    padding: 35px 284px 0px;
+    width: 100%;
+    font-size: 35px;
+    font-weight: 600;
+    color: #172368;
+}
+.contato-container .itens .item{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.contato-container .itens .item .dados{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.contato-container .itens i{
+    font-size: 35px;
+    padding: 10px;
+}
+.left{
+    padding: 40px;
+}
+.right{
+    padding: 40px;
+    border-left: 3px solid rgb(90, 103, 187, 0.4);
+}
+
+.contato-container h4{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.contato-container .contato .desc{
+    padding-inline: 20px;
+    font-size: 15px;
+}
+.input-area {
+    max-width: 500px;
+    margin: auto;
+}
+  
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+  
+.field {
+    flex: 1;
+}
+  
+.name, .email {
+    flex: 1;
+}
+  
+.field input, .textarea textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(90, 103, 187);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+  
+.textarea textarea {
+    resize: vertical;
+}
+.button {
+    text-align: center;
+}
+  
+button {
+    padding: 10px 25px;
+    background-color: #055096;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 16px;
+}
+  
+  button:hover {
+    background-color: #220392;
+  }
