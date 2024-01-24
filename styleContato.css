@@ -17,6 +17,7 @@
 .contato-container .itens{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
 }
 .title{
     padding: 35px 284px 0px;
@@ -50,14 +51,14 @@
 }
 
 .contato-container h4{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     padding: 20px;
 }
 
 .contato-container .contato .desc{
     padding-inline: 20px;
-    font-size: 15px;
+    font-size: 18px;
 }
 .input-area {
     max-width: 500px;
